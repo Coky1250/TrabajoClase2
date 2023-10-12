@@ -1,5 +1,3 @@
-
-
 // Declaración de variables para el cronometro
 let timer;
 let running = false;
@@ -30,7 +28,9 @@ function startTimer() {
 function stopTimer() {
     if (running) {
         running = false;
-        startButton.innerText = 'Iniciar';
+        if (startButton.innerText !== 'Reanudar') {
+            startButton.innerText = 'Reanudar';
+        }
         startButton.disabled = false;
         stopButton.disabled = true;
         // Detiene el intervalo de actualización del cronometro
@@ -48,9 +48,12 @@ function resetTimer() {
     hours = 0;
     // Actualiza el elemento HTML 'display' para mostrar '00:00:00'
     display.innerText = '00:00:00';
+    // Cambia el texto del botón a "Iniciar" ya que estamos reiniciando
+    startButton.innerText = 'Iniciar';
     // Desactiva el botón de reinicio
     resetButton.disabled = true;
 }
+
 
 // Función para actualizar el cronometro cada segundo
 function updateTimer() {

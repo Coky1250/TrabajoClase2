@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     // Obtén referencias a elementos del DOM
     const inputTexto = document.getElementById("inputTexto"); // Campo de entrada de texto
