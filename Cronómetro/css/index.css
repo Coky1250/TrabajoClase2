@@ -1,0 +1,37 @@
+/* Estilo para el cuerpo de la página */
+
+body {
+    background-color: black; /* Fondo negro */
+    font-family: 'SF Pro Display', sans-serif; /* Fuente de texto */
+    color: white; /* Color de texto blanco */
+    text-align: center; /* Alineación de texto al centro */
+}
+
+/* Estilos específicos para elementos con la clase "cronometro" */
+.cronometro {
+    margin-top: 100px; /* Margen superior de 100px */
+}
+
+/* Estilos para los elementos <h1> (encabezados) */
+h1 {
+    font-size: 36px; /* Tamaño de fuente de 36px */
+    color: white; /* Color de texto blanco */
+}
+
+/* Estilos para los elementos <button> (botones) */
+button {
+    font-size: 18px; /* Tamaño de fuente de 18px */
+    margin: 10px; /* Margen de 10px en todos los lados */
+    padding: 10px 20px; /* Relleno de 10px arriba/abajo y 20px izquierda/derecha */
+}
+
+/* Estilos para el elemento con el id "display" */
+#display {
+    border: 2px solid white; /* Borde de 2px sólido blanco */
+    border-radius: 5px; /* Borde redondeado con radio de 5px */
+    padding: 10px; /* Relleno de 10px */
+    display: inline-block; /* Elemento en línea con bloque */
+}
+
+    
+    

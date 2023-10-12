@@ -1,0 +1,64 @@
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: black; /* Establece el fondo en negro */
+    font-family: 'SF Pro Display', sans-serif; /* Define la fuente utilizada para el texto */
+    color: white; /* Establece el color del texto en blanco */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    text-align: center; /* Centra el contenido del contenedor */
+    margin: 20px; /* Agrega un margen exterior de 20px en todos los lados */
+    margin-top: 100px; /* Agrega un margen superior adicional de 100px */
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px; /* Establece el espacio de relleno en los botones */
+    margin: 10px; /* Agrega un margen exterior de 10px en todos los lados */
+    border: none; /* Elimina el borde de los botones */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    background-color: black; /* Establece el fondo de los botones en negro */
+    color: white; /* Establece el color del texto en los botones en blanco */
+    cursor: pointer; /* Cambia el cursor al estilo de "mano" al pasar por encima */
+    font-weight: bold; /* Establece el grosor de la fuente como negrita */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    font-size: 30px; /* Establece el tamaño de la fuente en 30px */
+}
+
+/* Estilos para los botones al pasar el cursor por encima */
+button:hover {
+    background-color: white; /* Cambia el fondo a blanco */
+    color: black; /* Cambia el color del texto a negro */
+    font-size: 30px; /* Mantiene el tamaño de la fuente en 30px al pasar el cursor por encima */
+}
+
+/* Estilos para los campos de entrada de texto */
+input[type="text"] {
+    font-size: 22px; /* Establece el tamaño de la fuente en los campos de entrada */
+    width: 20%; /* Establece el ancho de los campos de entrada en un 20% del contenedor */
+    padding: 10px; /* Agrega un espacio de relleno de 10px */
+    background-color: black; /* Establece el fondo en negro */
+    color: white; /* Establece el color del texto en blanco */
+    border: none; /* Elimina el borde de los campos de entrada */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave de color al fondo y al texto */
+}
+
+/* Estilo para los campos de entrada de texto al pasar el cursor por encima (opcional) */
+input[type="text"]:hover {
+    background-color: gray; /* Cambia el fondo a gris cuando el cursor está sobre el campo de entrada */
+    color: black; /* Cambia el color del texto a negro cuando el cursor está sobre el campo de entrada */
+}
+
+/* Estilo para los campos de entrada de texto cuando están enfocados (opcional) */
+input[type="text"]:focus {
+    outline: none; /* Elimina el contorno al enfocar el campo de entrada */
+    background-color: white; /* Cambia el fondo a blanco cuando el campo de entrada está enfocado */
+    color: black; /* Cambia el color del texto a negro cuando el campo de entrada está enfocado */
+}
+
+/* Estilo para el marcador de posición en los campos de entrada (opcional) */
+::placeholder {
+    font-size: 22px; /* Establece el tamaño de la fuente del marcador de posición */
+}
